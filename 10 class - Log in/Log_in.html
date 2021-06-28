@@ -9,14 +9,13 @@
 </head>
 <body>
     <header class="header">
-        <img class="header__img" src="img/logo.png" alt="Logo">
+        <img tabindex="0" class="header__img" src="img/logo.png" alt="Logo">
     </header>
     <section class="login">
         <section class="login__container">
-            <h2>Log in</h2>
-            <form class="login__container--form">
-                <input class="input" type="text" placeholder="Mail">
-                <input class="input" type="password" placeholder="Password">
+            <h2 tabindex="0">Log in</h2>
+                <input aria-label="Mail" class="input" type="text" placeholder="Mail">
+                <input aria-label="Password" class="input" type="password" placeholder="Password">
                 <button class="button">Log in</button>
                 <div class="login__container--remember-me">
                     <label>
